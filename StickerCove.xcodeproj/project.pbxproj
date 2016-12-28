@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0FD32C1E135BE9001616D8 /* SAConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0FD32B1E135BE9001616D8 /* SAConfettiView.swift */; };
+		7A0FD32E1E135D66001616D8 /* ThankYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0FD32D1E135D66001616D8 /* ThankYouViewController.swift */; };
+		7A0FD3301E13648C001616D8 /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0FD32F1E13648C001616D8 /* confetti.png */; };
 		7A4874971E0EF30E00394651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4874961E0EF30E00394651 /* AppDelegate.swift */; };
 		7A4874991E0EF30E00394651 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4874981E0EF30E00394651 /* ViewController.swift */; };
 		7A48749C1E0EF30E00394651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A48749A1E0EF30E00394651 /* Main.storyboard */; };
 		7A48749E1E0EF30E00394651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A48749D1E0EF30E00394651 /* Assets.xcassets */; };
 		7A4874A11E0EF30E00394651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A48749F1E0EF30E00394651 /* LaunchScreen.storyboard */; };
+		7A4874AB1E0F556E00394651 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4874AA1E0F556E00394651 /* Picture.swift */; };
+		7A4874AD1E0F57CF00394651 /* PictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4874AC1E0F57CF00394651 /* PictureTableViewCell.swift */; };
+		7A4874AF1E0F71FD00394651 /* PictureDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4874AE1E0F71FD00394651 /* PictureDetailViewController.swift */; };
+		7A4874B31E12075D00394651 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4874B21E12075D00394651 /* PassKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A0FD32B1E135BE9001616D8 /* SAConfettiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAConfettiView.swift; sourceTree = "<group>"; };
+		7A0FD32D1E135D66001616D8 /* ThankYouViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThankYouViewController.swift; sourceTree = "<group>"; };
+		7A0FD32F1E13648C001616D8 /* confetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confetti.png; sourceTree = "<group>"; };
 		7A4874931E0EF30E00394651 /* StickerCove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickerCove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4874961E0EF30E00394651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A4874981E0EF30E00394651 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,11 @@
 		7A48749D1E0EF30E00394651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A4874A01E0EF30E00394651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A4874A21E0EF30E00394651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A4874AA1E0F556E00394651 /* Picture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		7A4874AC1E0F57CF00394651 /* PictureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureTableViewCell.swift; sourceTree = "<group>"; };
+		7A4874AE1E0F71FD00394651 /* PictureDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureDetailViewController.swift; sourceTree = "<group>"; };
+		7A4874B01E0FA6ED00394651 /* StickerCove.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StickerCove.entitlements; sourceTree = "<group>"; };
+		7A4874B21E12075D00394651 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A4874B31E12075D00394651 /* PassKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +56,7 @@
 			children = (
 				7A4874951E0EF30E00394651 /* StickerCove */,
 				7A4874941E0EF30E00394651 /* Products */,
+				7A4874B11E12075D00394651 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,29 @@
 		7A4874951E0EF30E00394651 /* StickerCove */ = {
 			isa = PBXGroup;
 			children = (
+				7A4874B01E0FA6ED00394651 /* StickerCove.entitlements */,
 				7A4874961E0EF30E00394651 /* AppDelegate.swift */,
+				7A0FD32B1E135BE9001616D8 /* SAConfettiView.swift */,
 				7A4874981E0EF30E00394651 /* ViewController.swift */,
+				7A0FD32D1E135D66001616D8 /* ThankYouViewController.swift */,
+				7A4874AC1E0F57CF00394651 /* PictureTableViewCell.swift */,
+				7A4874AE1E0F71FD00394651 /* PictureDetailViewController.swift */,
+				7A4874AA1E0F556E00394651 /* Picture.swift */,
 				7A48749A1E0EF30E00394651 /* Main.storyboard */,
 				7A48749D1E0EF30E00394651 /* Assets.xcassets */,
+				7A0FD32F1E13648C001616D8 /* confetti.png */,
 				7A48749F1E0EF30E00394651 /* LaunchScreen.storyboard */,
 				7A4874A21E0EF30E00394651 /* Info.plist */,
 			);
 			path = StickerCove;
+			sourceTree = "<group>";
+		};
+		7A4874B11E12075D00394651 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A4874B21E12075D00394651 /* PassKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +130,14 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = V3GFNATBC5;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 1;
+							};
+							com.apple.Wallet = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -127,6 +167,7 @@
 				7A4874A11E0EF30E00394651 /* LaunchScreen.storyboard in Resources */,
 				7A48749E1E0EF30E00394651 /* Assets.xcassets in Resources */,
 				7A48749C1E0EF30E00394651 /* Main.storyboard in Resources */,
+				7A0FD3301E13648C001616D8 /* confetti.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +178,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A4874AF1E0F71FD00394651 /* PictureDetailViewController.swift in Sources */,
+				7A4874AD1E0F57CF00394651 /* PictureTableViewCell.swift in Sources */,
+				7A0FD32C1E135BE9001616D8 /* SAConfettiView.swift in Sources */,
+				7A0FD32E1E135D66001616D8 /* ThankYouViewController.swift in Sources */,
+				7A4874AB1E0F556E00394651 /* Picture.swift in Sources */,
 				7A4874991E0EF30E00394651 /* ViewController.swift in Sources */,
 				7A4874971E0EF30E00394651 /* AppDelegate.swift in Sources */,
 			);
@@ -261,6 +307,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StickerCove/StickerCove.entitlements;
 				DEVELOPMENT_TEAM = V3GFNATBC5;
 				INFOPLIST_FILE = StickerCove/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -274,6 +321,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StickerCove/StickerCove.entitlements;
 				DEVELOPMENT_TEAM = V3GFNATBC5;
 				INFOPLIST_FILE = StickerCove/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -302,6 +350,7 @@
 				7A4874A71E0EF30E00394651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
